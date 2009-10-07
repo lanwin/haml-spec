@@ -236,6 +236,7 @@
       "haml" : "%div\n  %div\n    %p\n      text",
       "html" : "<div>\n  <div>\n    <p>\n      text\n    </p>\n  </div>\n</div>"
     }
+	
   },
 
   "tags with HTML-style attributes": {
@@ -387,6 +388,7 @@
         "var" : "a"
       }
     }
+	
   },
 
   "silent comments" : {
@@ -448,14 +450,6 @@
   },
 
   "interpolation": {
-
-    "interpolation inside code" : {
-      "haml" : "%p= \"#{var}\"",
-      "html" : "<p>value</p>",
-      "locals" : {
-        "var" : "value"
-      }
-    },
 
     "interpolation inside inline content" : {
       "haml" : "%p #{var}",
